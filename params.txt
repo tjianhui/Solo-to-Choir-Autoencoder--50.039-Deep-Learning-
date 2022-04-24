@@ -1,0 +1,20 @@
+Melspec params:
+n_mels = 128 
+n_fft = 2048
+hop_length = 512
+
+Optimiser params:
+lr = 0.0002
+beta1 = 0.9
+beta2 = 0.999
+decay = 1e-5
+
+Model params:
+ng = 32 - bottleneck 512 features
+num_epochs = 500
+all leakyrelu
+no batchnorm
+
+Times taken: 
+training - approx. 4hrs (500 epochs)
+testing - approx. 1hr 20 mins (6 files)
